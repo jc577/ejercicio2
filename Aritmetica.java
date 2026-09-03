@@ -3,6 +3,7 @@ public class Aritmetica {
         return a + b;
     }
 
+//Nombre: Melani Vanesa Ureña Vizcarra
     public int restar(int a, int b) {
         return a - b;
     }
