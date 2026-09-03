@@ -1,20 +1,9 @@
-public class Aritmetica{
-public static double restar(double... numeros) {
-    if (numeros.length == 0) {
-        throw new IllegalArgumentException("Debe ingresar al menos un número");
+public class Aritmetica {
+    public int sumar(int a, int b) {
+        return a + b;
     }
 
-    double resultado = numeros[0];
-
-    for (int i = 1; i < numeros.length; i++) {
-        resultado -= numeros[i];
+    public int restar(int a, int b) {
+        return a - b;
     }
-
-    return resultado;
-
-public class Aritmetica{
-    public int sumar(int a, int b){
-        return a+b;
-    }
-}
 }
