@@ -1,3 +1,4 @@
+public class Aritmetica{
 public static double restar(double... numeros) {
     if (numeros.length == 0) {
         throw new IllegalArgumentException("Debe ingresar al menos un número");
@@ -10,4 +11,10 @@ public static double restar(double... numeros) {
     }
 
     return resultado;
+
+public class Aritmetica{
+    public int sumar(int a, int b){
+        return a+b;
+    }
+}
 }
