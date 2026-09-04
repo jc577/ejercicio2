@@ -7,4 +7,8 @@ public class Aritmetica {
     public int restar(int a, int b) {
         return a - b;
     }
+    //Nombre: Franz Orellana
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
 }
