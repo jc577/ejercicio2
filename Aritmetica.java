@@ -29,6 +29,15 @@ public class Aritmetica {
         return Math.pow(base, exponente);
     }
 
+
+    // Herlan Ibañez Condori - Función: DIVISIÓN
+public static int division(int x, int y) {
+    if (y == 0) {
+        System.out.println("No se puede dividir entre 0");
+        return 0; 
+    }
+    return x / y;
+}
     // Método main para probar (opcional)
     public static void main(String[] args) {
         System.out.println("Raíz cuadrada de 25: " + raizCuadrada(25));
@@ -38,5 +47,7 @@ public class Aritmetica {
         System.out.println("Potencia de 2^3: " + potencia(2, 3));
         System.out.println("Potencia de 5^2: " + potencia(5, 2));
         System.out.println("Potencia de 10^0: " + potencia(10, 0));
+        System.out.println("Division de 2/2: "+ division(2,2));
+        System.out.println("Division de 2/0: "+ division(2,0));
     }
 }
