@@ -3,7 +3,7 @@ public class Aritmetica {
         return a + b;
     }
 
-    //Nombre: Melani Vanesa Ureña Vizcarra
+    //Nombre: Ureña Vizcarra Melani Vanesa
     public int restar(int a, int b) {
         return a - b;
     }
@@ -28,6 +28,16 @@ public class Aritmetica {
     public static double potencia(double base, double exponente) {
         return Math.pow(base, exponente);
     }
+
+    //Nombre: Quispe Rocha Oliver Cristian
+    public static int Logaritmo10(int numero) {
+    int resultado = 0;
+    while (numero >= 10) {
+        numero = numero / 10;
+        resultado++;
+    }
+    return resultado;
+}
 
 
     // Herlan Ibañez Condori - Función: DIVISIÓN
