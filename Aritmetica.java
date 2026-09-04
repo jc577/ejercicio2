@@ -3,6 +3,7 @@ public class Aritmetica {
         return a + b;
     }
 
+<<<<<<< HEAD
 //Nombre: Melani Vanesa Ureña Vizcarra
     public int restar(int a, int b) {
         return a - b;
@@ -16,6 +17,10 @@ public class Aritmetica {
     public int sumar(int a, int b) {
         return a + b;
     }
+=======
+    // Función: Raíz Cuadrada
+    // Torrico Copali Jorge David
+>>>>>>> 493ad184ecddad0a266245bf254f050c1a5a34d4
 
     //Nombre: Melani Vanesa Ureña Vizcarra
     public int restar(int a, int b) {
@@ -38,7 +43,7 @@ public class Aritmetica {
         return Math.sqrt(numero);
     }
 
-    // Método main para probar (opcional)
+    // Método main para probar
     public static void main(String[] args) {
         System.out.println("Raíz cuadrada de 25: " + raizCuadrada(25));
         System.out.println("Raíz cuadrada de 2: " + raizCuadrada(2));
