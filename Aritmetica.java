@@ -1,7 +1,7 @@
 public class Aritmetica {
 
     // Función: Raíz Cuadrada
-    // Torrio Copali Jorge David
+    // Torrico Copali Jorge David
 
     public static double raizCuadrada(double numero) {
         if (numero < 0) {
@@ -17,7 +17,7 @@ public class Aritmetica {
         return Math.sqrt(numero); 
     }
 
-    // Método main para probar (opcional)
+    // Método main para probar
     public static void main(String[] args) {
         System.out.println("Raíz cuadrada de 25: " + raizCuadrada(25));
         System.out.println("Raíz cuadrada de 2: " + raizCuadrada(2));
