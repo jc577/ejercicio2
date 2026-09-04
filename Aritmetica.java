@@ -24,11 +24,19 @@ public class Aritmetica {
         return Math.sqrt(numero);
     }
 
+    // Santos Marca Maria Clara - Función: POTENCIA
+    public static double potencia(double base, double exponente) {
+        return Math.pow(base, exponente);
+    }
+
     // Método main para probar (opcional)
     public static void main(String[] args) {
         System.out.println("Raíz cuadrada de 25: " + raizCuadrada(25));
         System.out.println("Raíz cuadrada de 2: " + raizCuadrada(2));
         System.out.println("Raíz cuadrada de 0: " + raizCuadrada(0));
         System.out.println("Raíz cuadrada de 16: " + raizCuadrada(16));
+        System.out.println("Potencia de 2^3: " + potencia(2, 3));
+        System.out.println("Potencia de 5^2: " + potencia(5, 2));
+        System.out.println("Potencia de 10^0: " + potencia(10, 0));
     }
 }
